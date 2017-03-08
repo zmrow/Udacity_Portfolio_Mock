@@ -8,6 +8,10 @@
     width: 100%;
 }
 
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .main-image {
     width: 100%;
 }
