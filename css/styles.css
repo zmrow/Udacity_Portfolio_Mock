@@ -21,6 +21,7 @@
     margin-top: 30px;
 }
 
+/* Small size media query */
 @media screen and (max-width: 400px) {
     .title-logo {
         width: 42px;
@@ -42,7 +43,8 @@
     }
 }
 
-@media screen and (min-width:401px) and (max-width: 767px) {
+/* Medium size media query */
+@media screen and (min-width: 401px) and (max-width: 767px) {
     .title-logo {
         width: 72px;
         height: 62px;
