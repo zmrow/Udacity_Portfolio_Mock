@@ -4,6 +4,11 @@
     font-weight: 200;
 }
 
+.horiz-rule {
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+}
+
 .text-muted {
     color: #bcbbbb;
 }
@@ -14,5 +19,21 @@
 
 .title-logo {
     margin-top: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    .title-logo {
+        display: none;
+    }
+
+    .text-muted {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
 }
 
