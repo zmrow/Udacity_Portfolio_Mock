@@ -26,6 +26,10 @@
         display: none;
     }
 
+    .title-super {
+        font-size: 40px;
+    }
+
     .text-muted {
         font-size: 20px;
     }
@@ -37,3 +41,19 @@
     }
 }
 
+@media screen and (min-width:401px) and (max-width: 767px) {
+    .title-logo {
+        width: 72px;
+        height: 62px;
+    }
+
+    .text-muted {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
